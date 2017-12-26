@@ -1,11 +1,14 @@
 {
-    "name": "dangoodman/composer-for-wordpress",
+    "name": "mundschenk-at/composer-for-wordpress",
     "type": "composer-plugin",
     "extra": {
         "class": "Dangoodman\\ComposerForWordpress\\ComposerForWordpress"
     },
     "require": {
         "composer-plugin-api": "^1.0"
+    },
+    "replace": {
+        "dangoodman/composer-for-wordpress": "1.*"
     },
     "autoload": {
         "psr-4": {
